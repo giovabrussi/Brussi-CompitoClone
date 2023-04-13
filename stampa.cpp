@@ -1,7 +1,7 @@
 /*
 Scrivere un programma che stampi "n" volte la stringa "Bada come la fuma"  con "n" dato in input dall'utente.
 
-NOME COGNOME DATA
+Giovanni Brussi 13/04/2023
 */
 
 # include <iostream>
