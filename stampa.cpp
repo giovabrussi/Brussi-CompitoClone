@@ -8,12 +8,13 @@ Giovanni Brussi 13/04/2023
 using namespace std;
 int main()
 {
-  int i=10 ,n;
+  int i=0 ,n;
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
   while (i<n)
   {
-   cout<<"Bada come la fuma"<<endl; 
+   cout<<"Bada come la fuma"<<endl;
+   i++;
   }
   system("pause");
 }
