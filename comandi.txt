@@ -1,0 +1,24 @@
+    1  cd Desktop/
+    2  git clone https://github.com/sena-meucci/progettoStampa.git
+    3  ls
+    4  cd progettoStampa/
+    5  git log
+    6  git config user.name brussi
+    7  git config user.email brussi.giovanni@itismeucci.com
+    8  cd Desktop/
+    9  cd verifica/
+   10  cd progettoStampa/
+   11  git config user.name brussi
+   12  git config user.email brussi.giovanni@itismeucci.com
+   13  git add .
+   14  git commit -m "inserito nome"
+   15  git branch 
+   16  git branch bugFix
+   17  git checkout bugFix 
+   18  git add .
+   19  git commit -m "errore risolto in stampa"
+   20  git log
+   21  git checkout master 
+   22  git merge bugFix 
+   23  git branch -d bugFix 
+   24  history 30 > comandi.txt
